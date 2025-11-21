@@ -16,7 +16,18 @@ export type TimelineEntry = {
   detail: string;
 };
 
-export const profile = {
+export type Profile = {
+  name: string;
+  englishName: string;
+  role: string;
+  research: string;
+  affiliations: string[];
+  accounts: Account[];
+  skills: string[];
+  certifications: string[];
+};
+
+export const profile: Profile = {
   name: "壁谷 悠成",
   englishName: "KABETANI Yusei",
   role: "名古屋大学 情報学部 自然情報学科 数理情報系 4年",
