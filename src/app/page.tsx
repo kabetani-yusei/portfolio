@@ -13,12 +13,12 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Accounts />
       <About />
       <Skills />
       <Achievements />
       <Experience />
       <Timeline />
+      <Accounts />
       <Footer />
     </>
   );

@@ -34,6 +34,7 @@ export const profile = {
     {
       name: "SIGNATE",
       url: "https://user.competition.signate.jp/ja/user/?user=5a67c126a1d648f88ce4b580c4abf31a",
+      handle: "wally0593",
     },
     { name: "Qiita", url: "https://qiita.com/melo_atc", handle: "@melo_atc" },
     {
@@ -139,25 +140,17 @@ export const experiences: Achievement[] = [
   },
 ];
 
-export const timeline: TimelineEntry[] = [
-  { period: "2025年春", detail: "DL基礎講座 2025年春 修了" },
-  {
-    period: "2024年冬",
-    detail: "GCI 2024 Winter 修了",
-  },
-  {
-    period: "2024年2月〜",
-    detail: "株式会社マップフォー Sensing & Perception アルバイト",
-  },
-  {
-    period: "2026年4月",
-    detail: "名古屋大学大学院 情報学研究科 数理情報学専攻 入学",
-  },
-  {
-    period: "2026年3月",
-    detail: "名古屋大学 情報学部 自然情報学科 卒業",
-  },
-  { period: "2024年4月", detail: "名古屋大学 情報学部 自然情報学科 編入学" },
-  { period: "2024年3月", detail: "豊田高専 情報工学科 卒業" },
-  { period: "2019年4月", detail: "豊田高専 情報工学科 入学" },
+export type TimelineCategory = "education" | "work";
+
+export type TimelineItem = TimelineEntry & {
+  category: TimelineCategory;
+};
+
+export const timeline: TimelineItem[] = [
+  { period: "2026年4月", detail: "名古屋大学大学院 情報学研究科 数理情報学専攻 入学", category: "education" },
+  { period: "2026年3月", detail: "名古屋大学 情報学部 自然情報学科 卒業", category: "education" },
+  { period: "2024年4月", detail: "名古屋大学 情報学部 自然情報学科 編入学", category: "education" },
+  { period: "2024年3月", detail: "豊田高専 情報工学科 卒業", category: "education" },
+  { period: "2024年2月〜", detail: "株式会社マップフォー Sensing & Perception アルバイト", category: "work" },
+  { period: "2019年4月", detail: "豊田高専 情報工学科 入学", category: "education" },
 ];
