@@ -1,0 +1,24 @@
+packages: []
+
+# ビルドスクリプトの制御
+# pnpm approve-builds の結果を元に確認済みのパッケージのみ許可
+allowBuilds:
+  sharp: true        # Next.js の画像最適化
+  unrs-resolver: true  # ESLint が使用する Rust 製モジュール解決ツール
+
+strictDepBuilds: true
+
+# 新規リリースパッケージの制限（公開から3日未満のバージョンを拒否）
+minimumReleaseAge: 4320
+
+# 信頼性レベルの低下検知
+trustPolicy: no-downgrade
+
+# 変則的な依存取得元のブロック
+blockExoticSubdeps: true
+
+# pnpm バージョンの厳密一致（packageManager フィールドのバージョンと完全一致を要求）
+packageManagerStrictVersion: true
+
+# Node.js バージョンの固定（実行環境を v22.19.0 に固定）
+useNodeVersion: 22.19.0
