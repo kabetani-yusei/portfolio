@@ -2,14 +2,13 @@
 ## 氏名
 壁谷 悠成 / KABETANI Yusei
 ## 所属
-名古屋大学情報学部自然情報学科数理情報系4年
+名古屋大学大学院 情報学研究科 数理情報学専攻 修士1年
 - アプリ開発団体 jack
 - 競技プログラミングサークル NUCODER
-- 名古屋大学謎解きサークル リデルタ
 ## 研究分野
 組合せ最適化
 
-# 各種アカウント
+## 各種アカウント
 - X: https://x.com/melo_atc
 - GitHub: https://github.com/kabetani-yusei
 - AtCoder: https://atcoder.jp/users/melo25
@@ -18,7 +17,7 @@
 - Qiita: https://qiita.com/melo_atc
 - jackブログ: https://www.jackapp.jp/blog/writer/%E3%82%81%E3%82%8D
 
-# skills
+## skills
 - Python
 - TypeScript
 - Ruby
@@ -26,27 +25,33 @@
 - FastAPI
 - React
 
-# 資格
+## 資格
 - TOEIC 805点
 - 数学検定準1級
 - 基本情報技術者
 - 応用情報技術者
 - 一般社団法人日本ディープラーニング協会 G検定
+- 一般社団法人日本ディープラーニング協会 E資格
 - 普通自動車第一種運転免許(AT限定)
 
-# 実績
+## 実績
 - 令和6年度情報学部成績優秀者
 - JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞 2025年11月
 - JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞 2024年
+- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
 - atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位
 - atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位
+- #21 atmaCup in collaboration with Elith 学生8位 / 全体41位
 - SIGNATE MUFG DATA Science Basic Camp 1位
+- SIGNATE × TECH OCEAN Student Cup 2025 3位
 - 第4回空戦AIチャレンジ オープン部門10位 / ユース部門5位
+- リヴァンプ×Nishika LLMコンペティション】大手グローバル小売メーカーの商品PR文生成 5位
 - AtCoder Heuristic Contest 055 学生26位 / 総合82位
 
 
 ## 経験
 - AtCoder（水 / 青）
+- SIGNATE Grandmaster
 - KOSENセキュリティコンテスト2022 12位
 - KOSENセキュリティコンテスト2023 9位
 - ALGORI2024 戦略賞ノミネート
@@ -56,14 +61,16 @@
 - 全国高専大会 3位（将棋・3年冬）
 - 令和5年度 中部近畿高専将棋大会 Aリーグ4位
 - 全国高専大会 優勝（ハンドボール・4年夏）
-- 全国高専大会 準優勝（ハンドボール・5年夏（名大受験後））
+- 全国高専大会 準優勝（ハンドボール・5年夏）
 - 第10回デンソーコードコンテスト 学生3位 / 全体4位
+- 第5回デンソークラウドコンテスト 全体3位（チーム）
 - jackHack2024 優勝
 - jACK(jack AI competition for Koikoi) 一発部門最優秀賞　総当たり部門優秀賞　スポンサー特別賞
 - jackHack2025 優勝
 - コヨーテAI大会 総合優勝、複数回対戦部門優勝、jack賞、c0de賞
 - 技育CAMP 2025 vol.7 努力賞（2025年8月）
 - Track AIが書いたコード vs 人間が書いたコード 学生5位
+- Fixstars高速化コンテスト2026 18位
 - DECC2025 本戦22位
 
 ## Timeline
@@ -75,3 +82,6 @@
 - 2024年2月〜 株式会社マップフォー Sensing & Perception アルバイト
 - 2024年冬　GCI 2024 Winter 修了
 - 2025年春　DL基礎講座2025年春 修了
+
+## Contact
+- yuusei0565(at)gmail.com
