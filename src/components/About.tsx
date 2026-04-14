@@ -1,4 +1,3 @@
-import { BookOpen, Users } from "lucide-react";
 import { profile } from "@/data/profile";
 import { FadeIn } from "./FadeIn";
 import { SectionHeading } from "./SectionHeading";
@@ -8,51 +7,38 @@ export function About() {
     <section id="about" className="scroll-mt-20 bg-white py-20">
       <div className="mx-auto max-w-6xl px-6">
         <FadeIn>
-          <SectionHeading
-            label="About"
-            title="研究・所属"
-            description="組合せ最適化を軸に、アルゴリズムとAIの両面からアプローチしています。"
-          />
+          <SectionHeading label="About" title="研究・所属" />
         </FadeIn>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
-          <FadeIn delay={0.1}>
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md">
-              <div className="mb-4 inline-flex rounded-xl bg-blue-50 p-3">
-                <BookOpen size={24} className="text-blue-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-slate-900">
-                研究分野
-              </h3>
-              <p className="mt-2 text-2xl font-bold text-blue-600">
+        <FadeIn delay={0.1}>
+          <dl className="mt-10 grid gap-y-6 gap-x-12 sm:grid-cols-[auto_1fr]">
+            <dt className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+              研究分野
+            </dt>
+            <dd>
+              <span className="text-sm font-bold text-slate-900">
                 {profile.research}
+              </span>
+              <span className="ml-2 text-sm text-slate-500">
+                — {profile.lab}
+              </span>
+              <p className="mt-1 text-sm leading-relaxed text-slate-500">
+                実社会の問題に対して、数理最適化によるアプローチをする研究をしています。
               </p>
-              <p className="mt-2 text-sm leading-relaxed text-slate-500">
-                現実の制約を扱うための数理計画やヒューリスティクスに注目し、実社会の問題に取り組んでいます。
-              </p>
-            </div>
-          </FadeIn>
+            </dd>
 
-          <FadeIn delay={0.2}>
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md">
-              <div className="mb-4 inline-flex rounded-xl bg-blue-50 p-3">
-                <Users size={24} className="text-blue-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-slate-900">所属</h3>
-              <ul className="mt-3 space-y-2">
-                {profile.affiliations.map((a) => (
-                  <li
-                    key={a}
-                    className="flex items-center gap-2 text-sm text-slate-600"
-                  >
-                    <span className="h-1.5 w-1.5 rounded-full bg-blue-400" />
-                    {a}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </FadeIn>
-        </div>
+            <dt className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+              所属
+            </dt>
+            <dd className="flex flex-col gap-1">
+              {profile.affiliations.map((a) => (
+                <span key={a} className="text-sm font-medium text-slate-700">
+                  {a}
+                </span>
+              ))}
+            </dd>
+          </dl>
+        </FadeIn>
       </div>
     </section>
   );

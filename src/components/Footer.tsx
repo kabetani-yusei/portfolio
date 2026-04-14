@@ -31,7 +31,7 @@ function CopyEmailButton() {
 
 export function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-slate-50 py-12">
+    <footer id="contact" className="scroll-mt-20 border-t border-slate-200 bg-slate-50 py-12">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center gap-8">
           <div className="flex flex-col items-center gap-3">

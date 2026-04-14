@@ -6,6 +6,7 @@
 - アプリ開発団体 jack
 - 競技プログラミングサークル NUCODER
 ## 研究分野
+柳浦研究室
 組合せ最適化
 
 ## 各種アカウント
@@ -26,19 +27,21 @@
 - React
 
 ## 資格
-- TOEIC 805点
-- 数学検定準1級
-- 基本情報技術者
-- 応用情報技術者
-- 一般社団法人日本ディープラーニング協会 G検定
-- 一般社団法人日本ディープラーニング協会 E資格
-- 普通自動車第一種運転免許(AT限定)
+- TOEIC 805点 2023年4月
+- 数学検定準1級 2022年7月
+- 基本情報技術者 2021年4月
+- 応用情報技術者 2023年12月
+- 一般社団法人日本ディープラーニング協会 G検定 2024年3月
+- 一般社団法人日本ディープラーニング協会 E資格 2026年2月
+- 普通自動車第一種運転免許(AT限定) 2023年12月
 
-## 実績
+## 受賞・実績
+- AtCoder（水 / 青）
+- SIGNATE Grandmaster
 - 令和6年度情報学部成績優秀者
 - JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞 2025年11月
 - JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞 2024年
-- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
+- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞 2025年12月
 - atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位
 - atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位
 - #21 atmaCup in collaboration with Elith 学生8位 / 全体41位
@@ -49,9 +52,7 @@
 - AtCoder Heuristic Contest 055 学生26位 / 総合82位
 
 
-## 経験
-- AtCoder（水 / 青）
-- SIGNATE Grandmaster
+## 活動・経験
 - KOSENセキュリティコンテスト2022 12位
 - KOSENセキュリティコンテスト2023 9位
 - ALGORI2024 戦略賞ノミネート

@@ -19,6 +19,7 @@ export const profile = {
   name: "壁谷 悠成",
   englishName: "KABETANI Yusei",
   role: "名古屋大学大学院 情報学研究科 数理情報学専攻 修士1年",
+  lab: "柳浦研究室",
   research: "組合せ最適化",
   intro:
     "組合せ最適化を研究しています。競技プログラミング、機械学習コンペ、ハッカソンに参加しています。",
@@ -43,19 +44,21 @@ export const profile = {
     },
   ] satisfies Account[],
   email: "yuusei0565(at)gmail.com",
-  skills: ["Python", "TypeScript", "Ruby", "C++", "FastAPI", "React"],
+  skills: ["Python", "FastAPI", "TypeScript", "React", "C++", "Ruby"],
   certifications: [
-    "応用情報技術者",
-    "基本情報技術者",
-    "E資格（JDLA）",
-    "G検定（JDLA）",
-    "TOEIC 805点",
-    "数学検定準1級",
-    "普通自動車第一種運転免許（AT限定）",
+    { name: "応用情報技術者", date: "2023年12月" },
+    { name: "基本情報技術者", date: "2021年4月" },
+    { name: "E資格（JDLA）", date: "2026年2月" },
+    { name: "G検定（JDLA）", date: "2024年3月" },
+    { name: "TOEIC 805点", date: "2023年4月" },
+    { name: "数学検定準1級", date: "2022年7月" },
+    { name: "普通自動車第一種運転免許（AT限定）", date: "2023年12月" },
   ],
 };
 
 export const achievements: Achievement[] = [
+  { title: "AtCoder（水 / 青）", tags: ["Programming"] },
+  { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
   { title: "令和6年度情報学部成績優秀者", tags: ["Academic"] },
   {
     title:
@@ -70,6 +73,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "技育博2025 Vol.5 CARTA HOLDINGS賞 / ウイングアーク１ｓｔ賞",
+    date: "2025年12月",
     tags: ["Hackathon"],
   },
   {
@@ -99,8 +103,6 @@ export const achievements: Achievement[] = [
     title: "AtCoder Heuristic Contest 055 学生26位 / 総合82位",
     tags: ["Programming"],
   },
-  { title: "Fixstars高速化コンテスト2026 18位", tags: ["Programming"] },
-  { title: "DECC2025 本戦22位", tags: ["Programming"] },
 ];
 
 export const experiences: Achievement[] = [
@@ -138,6 +140,8 @@ export const experiences: Achievement[] = [
     title: "Track AIが書いたコード vs 人間が書いたコード 学生5位",
     tags: ["Data Science"],
   },
+  { title: "Fixstars高速化コンテスト2026 18位", tags: ["Programming"] },
+  { title: "DECC2025 本戦22位", tags: ["Programming"] },
 ];
 
 export type TimelineCategory = "education" | "work";

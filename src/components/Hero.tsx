@@ -11,10 +11,7 @@ export function Hero() {
         <FadeIn>
           <div className="flex flex-col gap-6">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-blue-600">
-                {profile.research}
-              </p>
-              <h1 className="mt-3 text-4xl font-bold leading-tight text-slate-900 md:text-5xl lg:text-6xl">
+              <h1 className="text-4xl font-bold leading-tight text-slate-900 md:text-5xl lg:text-6xl">
                 {profile.name}
               </h1>
               <p className="mt-1 text-lg font-medium text-slate-400">

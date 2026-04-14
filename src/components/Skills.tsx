@@ -1,8 +1,24 @@
-import { Code, Award } from "lucide-react";
+import type { IconType } from "react-icons";
+import {
+  SiPython,
+  SiTypescript,
+  SiRuby,
+  SiCplusplus,
+  SiFastapi,
+  SiReact,
+} from "react-icons/si";
 import { profile } from "@/data/profile";
 import { FadeIn } from "./FadeIn";
 import { SectionHeading } from "./SectionHeading";
-import { Tag } from "./Tag";
+
+const skillIcons: Record<string, { icon: IconType; color: string }> = {
+  Python: { icon: SiPython, color: "#3776AB" },
+  TypeScript: { icon: SiTypescript, color: "#3178C6" },
+  Ruby: { icon: SiRuby, color: "#CC342D" },
+  "C++": { icon: SiCplusplus, color: "#00599C" },
+  FastAPI: { icon: SiFastapi, color: "#009688" },
+  React: { icon: SiReact, color: "#61DAFB" },
+};
 
 export function Skills() {
   return (
@@ -12,41 +28,51 @@ export function Skills() {
           <SectionHeading label="Skills" title="技術スタック・資格" />
         </FadeIn>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-10 grid gap-10 md:grid-cols-[1fr_1fr]">
           <FadeIn delay={0.1}>
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <div className="mb-4 flex items-center gap-3">
-                <div className="inline-flex rounded-xl bg-blue-50 p-3">
-                  <Code size={24} className="text-blue-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-slate-900">
-                  技術スタック
-                </h3>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {profile.skills.map((skill) => (
-                  <Tag key={skill} label={skill} />
-                ))}
-              </div>
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+                技術スタック
+              </h3>
+              <ul className="mt-4 space-y-2">
+                {profile.skills.map((skill) => {
+                  const entry = skillIcons[skill];
+                  const Icon = entry?.icon;
+                  return (
+                    <li
+                      key={skill}
+                      className="flex items-center gap-2.5 border-b border-slate-100 pb-2 text-sm last:border-0"
+                    >
+                      {Icon && (
+                        <Icon
+                          size={16}
+                          style={{ color: entry.color }}
+                          className="shrink-0"
+                        />
+                      )}
+                      <span className="text-slate-700">{skill}</span>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <div className="mb-4 flex items-center gap-3">
-                <div className="inline-flex rounded-xl bg-blue-50 p-3">
-                  <Award size={24} className="text-blue-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-slate-900">資格</h3>
-              </div>
-              <ul className="space-y-2.5">
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+                資格
+              </h3>
+              <ul className="mt-4 space-y-2">
                 {profile.certifications.map((cert) => (
                   <li
-                    key={cert}
-                    className="flex items-start gap-2.5 text-sm text-slate-600"
+                    key={cert.name}
+                    className="flex items-center justify-between border-b border-slate-100 pb-2 text-sm last:border-0"
                   >
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-400" />
-                    {cert}
+                    <span className="text-slate-700">{cert.name}</span>
+                    <span className="shrink-0 text-xs text-slate-400">
+                      {cert.date}
+                    </span>
                   </li>
                 ))}
               </ul>

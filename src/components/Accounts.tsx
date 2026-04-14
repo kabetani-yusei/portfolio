@@ -5,32 +5,35 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Accounts() {
   return (
-    <section id="accounts" className="scroll-mt-20 bg-white py-20">
+    <section id="accounts" className="scroll-mt-20 bg-slate-50 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <FadeIn>
           <SectionHeading label="Accounts" title="各種アカウント" />
         </FadeIn>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8">
           {profile.accounts.map((account, i) => (
-            <FadeIn key={account.name} delay={0.05 * (i % 6)}>
+            <FadeIn key={account.name} delay={0.03 * (i % 6)}>
               <a
                 href={account.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md"
+                className="group flex items-center justify-between border-b border-slate-200 py-4 transition last:border-0 hover:bg-slate-100/50"
               >
-                <div className="flex flex-col">
+                <div className="flex items-center gap-3">
                   <span className="text-sm font-semibold text-slate-800">
                     {account.name}
                   </span>
                   {account.handle && (
-                    <span className="mt-0.5 text-xs text-slate-400">
+                    <span className="text-xs text-slate-400">
                       {account.handle}
                     </span>
                   )}
                 </div>
-                <ExternalLink size={16} className="text-slate-400" />
+                <ExternalLink
+                  size={14}
+                  className="text-slate-300 transition group-hover:text-slate-500"
+                />
               </a>
             </FadeIn>
           ))}
