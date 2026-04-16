@@ -6,7 +6,6 @@ export type Account = {
 
 export type Achievement = {
   title: string;
-  date?: string;
   tags?: string[];
 };
 
@@ -63,17 +62,14 @@ export const achievements: Achievement[] = [
   {
     title:
       "JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞",
-    date: "2025年11月",
     tags: ["Hackathon"],
   },
   {
     title: "JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞",
-    date: "2024年",
     tags: ["Hackathon"],
   },
   {
     title: "技育博2025 Vol.5 CARTA HOLDINGS賞 / ウイングアーク１ｓｔ賞",
-    date: "2025年12月",
     tags: ["Hackathon"],
   },
   {
@@ -135,7 +131,7 @@ export const experiences: Achievement[] = [
     title: "コヨーテAI大会 総合優勝、複数回対戦部門優勝、jack賞、c0de賞",
     tags: ["Data Science"],
   },
-  { title: "技育CAMP 2025 vol.7 努力賞", date: "2025年8月", tags: ["Hackathon"] },
+  { title: "技育CAMP 2025 vol.7 努力賞", tags: ["Hackathon"] },
   {
     title: "Track AIが書いたコード vs 人間が書いたコード 学生5位",
     tags: ["Data Science"],

@@ -39,9 +39,9 @@
 - AtCoder（水 / 青）
 - SIGNATE Grandmaster
 - 令和6年度情報学部成績優秀者
-- JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞 2025年11月
-- JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞 2024年
-- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞 2025年12月
+- JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞
+- JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞
+- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
 - atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位
 - atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位
 - #21 atmaCup in collaboration with Elith 学生8位 / 全体41位
@@ -69,7 +69,7 @@
 - jACK(jack AI competition for Koikoi) 一発部門最優秀賞　総当たり部門優秀賞　スポンサー特別賞
 - jackHack2025 優勝
 - コヨーテAI大会 総合優勝、複数回対戦部門優勝、jack賞、c0de賞
-- 技育CAMP 2025 vol.7 努力賞（2025年8月）
+- 技育CAMP 2025 vol.7 努力賞
 - Track AIが書いたコード vs 人間が書いたコード 学生5位
 - Fixstars高速化コンテスト2026 18位
 - DECC2025 本戦22位
