@@ -6,7 +6,6 @@ export type Account = {
 
 export type Achievement = {
   title: string;
-  date?: string;
   tags?: string[];
 };
 
@@ -59,21 +58,18 @@ export const profile = {
 export const achievements: Achievement[] = [
   { title: "AtCoder（水 / 青）", tags: ["Programming"] },
   { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
-  { title: "令和6年度情報学部成績優秀者", tags: ["Academic"] },
+  { title: "令和6年度学業成績優秀者", tags: ["Academic"] },
   {
     title:
       "JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞",
-    date: "2025年11月",
     tags: ["Hackathon"],
   },
   {
     title: "JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞",
-    date: "2024年",
     tags: ["Hackathon"],
   },
   {
     title: "技育博2025 Vol.5 CARTA HOLDINGS賞 / ウイングアーク１ｓｔ賞",
-    date: "2025年12月",
     tags: ["Hackathon"],
   },
   {
@@ -106,16 +102,15 @@ export const achievements: Achievement[] = [
 ];
 
 export const experiences: Achievement[] = [
-  { title: "KOSENセキュリティコンテスト2022 12位", tags: ["Security"] },
-  { title: "KOSENセキュリティコンテスト2023 9位", tags: ["Security"] },
-  { title: "ALGORI2024 戦略賞ノミネート", tags: ["Programming"] },
-  { title: "東大松尾研 GCI Winter 修了", tags: ["Data Science"] },
-  { title: "DL基礎講座 修了", tags: ["Data Science"] },
+  { title: "東大松尾研 グローバル消費インテリジェンス寄附講座 2023 Winter 修了", tags: ["Data Science"] },
+  { title: "東大松尾研 Deep Learning 基礎講座 2025 Spring 修了", tags: ["Data Science"] },
   { title: "将棋ウォーズ 3段", tags: ["Shogi"] },
   { title: "全国高専大会 3位（将棋・3年冬）", tags: ["Shogi"] },
   { title: "令和5年度 中部近畿高専将棋大会 Aリーグ4位", tags: ["Shogi"] },
   { title: "全国高専大会 優勝（ハンドボール・4年夏）", tags: ["Handball"] },
   { title: "全国高専大会 準優勝（ハンドボール・5年夏）", tags: ["Handball"] },
+  { title: "KOSENセキュリティコンテスト2022 12位", tags: ["Security"] },
+  { title: "KOSENセキュリティコンテスト2023 9位", tags: ["Security"] },
   {
     title: "第10回デンソーコードコンテスト 学生3位 / 全体4位",
     tags: ["Programming"],
@@ -125,23 +120,24 @@ export const experiences: Achievement[] = [
     tags: ["Programming"],
   },
   { title: "jackHack2024 優勝", tags: ["Hackathon"] },
+  { title: "jackHack2025 優勝", tags: ["Hackathon"] },
   {
     title:
       "jACK (jack AI competition for Koikoi) 一発部門最優秀賞 / 総当たり部門優秀賞 / スポンサー特別賞",
     tags: ["Data Science"],
   },
-  { title: "jackHack2025 優勝", tags: ["Hackathon"] },
   {
     title: "コヨーテAI大会 総合優勝、複数回対戦部門優勝、jack賞、c0de賞",
     tags: ["Data Science"],
   },
-  { title: "技育CAMP 2025 vol.7 努力賞", date: "2025年8月", tags: ["Hackathon"] },
   {
     title: "Track AIが書いたコード vs 人間が書いたコード 学生5位",
     tags: ["Data Science"],
   },
+  { title: "技育CAMP 2025 vol.7 努力賞", tags: ["Hackathon"] },
   { title: "Fixstars高速化コンテスト2026 18位", tags: ["Programming"] },
   { title: "DECC2025 本戦22位", tags: ["Programming"] },
+  { title: "ALGORI2024 戦略賞ノミネート", tags: ["Programming"] },
 ];
 
 export type TimelineCategory = "education" | "work";

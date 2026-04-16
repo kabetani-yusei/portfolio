@@ -1,23 +1,22 @@
-import type { IconType } from "react-icons";
-import {
-  SiPython,
-  SiTypescript,
-  SiRuby,
-  SiCplusplus,
-  SiFastapi,
-  SiReact,
-} from "react-icons/si";
+import Image from "next/image";
 import { profile } from "@/data/profile";
 import { FadeIn } from "./FadeIn";
 import { SectionHeading } from "./SectionHeading";
 
-const skillIcons: Record<string, { icon: IconType; color: string }> = {
-  Python: { icon: SiPython, color: "#3776AB" },
-  TypeScript: { icon: SiTypescript, color: "#3178C6" },
-  Ruby: { icon: SiRuby, color: "#CC342D" },
-  "C++": { icon: SiCplusplus, color: "#00599C" },
-  FastAPI: { icon: SiFastapi, color: "#009688" },
-  React: { icon: SiReact, color: "#61DAFB" },
+import pythonIcon from "@/assets/icons/python.svg";
+import typescriptIcon from "@/assets/icons/typescript.svg";
+import rubyIcon from "@/assets/icons/ruby.svg";
+import cplusplusIcon from "@/assets/icons/cplusplus.svg";
+import fastapiIcon from "@/assets/icons/fastapi.svg";
+import reactIcon from "@/assets/icons/react.svg";
+
+const skillIcons: Record<string, typeof pythonIcon> = {
+  Python: pythonIcon,
+  TypeScript: typescriptIcon,
+  Ruby: rubyIcon,
+  "C++": cplusplusIcon,
+  FastAPI: fastapiIcon,
+  React: reactIcon,
 };
 
 export function Skills() {
@@ -36,17 +35,18 @@ export function Skills() {
               </h3>
               <ul className="mt-4 space-y-2">
                 {profile.skills.map((skill) => {
-                  const entry = skillIcons[skill];
-                  const Icon = entry?.icon;
+                  const iconSrc = skillIcons[skill];
                   return (
                     <li
                       key={skill}
                       className="flex items-center gap-2.5 border-b border-slate-100 pb-2 text-sm last:border-0"
                     >
-                      {Icon && (
-                        <Icon
-                          size={16}
-                          style={{ color: entry.color }}
+                      {iconSrc && (
+                        <Image
+                          src={iconSrc}
+                          alt={skill}
+                          width={16}
+                          height={16}
                           className="shrink-0"
                         />
                       )}

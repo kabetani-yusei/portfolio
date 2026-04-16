@@ -38,10 +38,10 @@
 ## 受賞・実績
 - AtCoder（水 / 青）
 - SIGNATE Grandmaster
-- 令和6年度情報学部成績優秀者
-- JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞 2025年11月
-- JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞 2024年
-- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞 2025年12月
+- 令和6年度学業成績優秀者
+- JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞
+- JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞
+- 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
 - atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位
 - atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位
 - #21 atmaCup in collaboration with Elith 学生8位 / 全体41位
@@ -53,26 +53,26 @@
 
 
 ## 活動・経験
-- KOSENセキュリティコンテスト2022 12位
-- KOSENセキュリティコンテスト2023 9位
-- ALGORI2024 戦略賞ノミネート
-- 東大松尾研 GCI Winter 修了
-- DL基礎講座 修了
+- 東大松尾研 グローバル消費インテリジェンス寄附講座 2023 Winter 修了
+- 東大松尾研 Deep Learning 基礎講座 2025 Spring 修了
 - 将棋ウォーズ 3段
 - 全国高専大会 3位（将棋・3年冬）
 - 令和5年度 中部近畿高専将棋大会 Aリーグ4位
 - 全国高専大会 優勝（ハンドボール・4年夏）
 - 全国高専大会 準優勝（ハンドボール・5年夏）
+- KOSENセキュリティコンテスト2022 12位
+- KOSENセキュリティコンテスト2023 9位
 - 第10回デンソーコードコンテスト 学生3位 / 全体4位
 - 第5回デンソークラウドコンテスト 全体3位（チーム）
 - jackHack2024 優勝
-- jACK(jack AI competition for Koikoi) 一発部門最優秀賞　総当たり部門優秀賞　スポンサー特別賞
 - jackHack2025 優勝
+- jACK(jack AI competition for Koikoi) 一発部門最優秀賞　総当たり部門優秀賞　スポンサー特別賞
 - コヨーテAI大会 総合優勝、複数回対戦部門優勝、jack賞、c0de賞
-- 技育CAMP 2025 vol.7 努力賞（2025年8月）
 - Track AIが書いたコード vs 人間が書いたコード 学生5位
+- 技育CAMP 2025 vol.7 努力賞
 - Fixstars高速化コンテスト2026 18位
 - DECC2025 本戦22位
+- ALGORI2024 戦略賞ノミネート
 
 ## Timeline
 - 2019年　豊田高専情報工学科　入学
@@ -81,8 +81,6 @@
 - 2026年　名古屋大学情報学部自然情報学科　卒業予定
 - 2026年　名古屋大学大学院情報学研究科数理情報学専攻　入学予定
 - 2024年2月〜 株式会社マップフォー Sensing & Perception アルバイト
-- 2024年冬　GCI 2024 Winter 修了
-- 2025年春　DL基礎講座2025年春 修了
 
 ## Contact
 - yuusei0565(at)gmail.com

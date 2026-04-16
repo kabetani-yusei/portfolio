@@ -63,11 +63,6 @@ export function Experience() {
                     )}
                   </div>
                 </div>
-                {item.date && (
-                  <span className="shrink-0 pt-0.5 text-xs text-slate-400">
-                    {item.date}
-                  </span>
-                )}
               </div>
             </FadeIn>
           ))}
