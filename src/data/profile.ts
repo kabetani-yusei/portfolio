@@ -46,11 +46,11 @@ export const profile = {
   skills: ["Python", "FastAPI", "TypeScript", "React", "C++", "Ruby"],
   certifications: [
     { name: "応用情報技術者", date: "2023年12月" },
-    { name: "基本情報技術者", date: "2021年4月" },
-    { name: "E資格（JDLA）", date: "2026年2月" },
-    { name: "G検定（JDLA）", date: "2024年3月" },
-    { name: "TOEIC 805点", date: "2023年4月" },
-    { name: "数学検定準1級", date: "2022年7月" },
+    { name: "基本情報技術者", date: "2021年04月" },
+    { name: "E資格（JDLA）", date: "2026年02月" },
+    { name: "G検定（JDLA）", date: "2024年03月" },
+    { name: "TOEIC 805点", date: "2023年04月" },
+    { name: "数学検定準1級", date: "2022年07月" },
     { name: "普通自動車第一種運転免許（AT限定）", date: "2023年12月" },
   ],
 };

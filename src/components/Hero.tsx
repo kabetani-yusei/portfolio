@@ -47,7 +47,7 @@ export function Hero() {
                 alt={profile.name}
                 width={400}
                 height={400}
-                className="relative rounded-2xl object-cover shadow-lg"
+                className="relative h-auto w-auto rounded-2xl object-cover shadow-lg"
                 priority
               />
             </div>
