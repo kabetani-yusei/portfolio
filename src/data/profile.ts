@@ -60,6 +60,10 @@ export const achievements: Achievement[] = [
   { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
   { title: "令和6年度学業成績優秀者", tags: ["Academic"] },
   {
+    title: "公益社団法人日本オペレーションズ・リサーチ学会主催 第1回ORコンペティション優秀賞",
+    tags: ["Academic"],
+  },
+  {
     title:
       "JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞",
     tags: ["Hackathon"],
