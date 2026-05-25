@@ -39,6 +39,7 @@
 - AtCoder（水 / 青）
 - SIGNATE Grandmaster
 - 令和6年度学業成績優秀者
+- 公益社団法人日本オペレーションズ・リサーチ学会主催　第1回ORコンペティション優秀賞
 - JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞
 - JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞
 - 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
