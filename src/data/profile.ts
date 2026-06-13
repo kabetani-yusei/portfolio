@@ -56,7 +56,7 @@ export const profile = {
 };
 
 export const achievements: Achievement[] = [
-  { title: "AtCoder（水 / 青）", tags: ["Programming"] },
+  { title: "AtCoder（水 / 黄）", tags: ["Programming"] },
   { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
   { title: "令和6年度学業成績優秀者", tags: ["Academic"] },
   {
