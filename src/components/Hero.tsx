@@ -14,8 +14,11 @@ export function Hero() {
               <h1 className="text-4xl font-bold leading-tight text-slate-900 md:text-5xl lg:text-6xl">
                 {profile.name}
               </h1>
-              <p className="mt-1 text-lg font-medium text-slate-400">
+              <p className="mt-1.5 text-lg font-medium text-slate-400">
                 {profile.englishName}
+                <span className="ml-2 text-base text-slate-400/80">
+                  {profile.nameKana}
+                </span>
               </p>
             </div>
 
