@@ -16,6 +16,11 @@ export type TimelineEntry = {
 
 export const profile = {
   name: "壁谷 悠成",
+  nameKana: "かべたに ゆうせい",
+  familyNameKanji: "壁谷",
+  givenNameKanji: "悠成",
+  familyNameKana: "かべたに",
+  givenNameKana: "ゆうせい",
   englishName: "KABETANI Yusei",
   role: "名古屋大学大学院 情報学研究科 数理情報学専攻 修士1年",
   lab: "柳浦研究室",

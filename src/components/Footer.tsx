@@ -41,9 +41,15 @@ export function Footer() {
             <CopyEmailButton />
           </div>
 
-          <p className="text-xs text-slate-400">
-            &copy; 2026 Yusei Kabetani
-          </p>
+          <div className="flex flex-col items-center gap-1 text-center">
+            <p className="text-xs text-slate-400">
+              &copy; 2026 壁谷悠成（かべたにゆうせい / Yusei Kabetani）
+            </p>
+            <p className="sr-only">
+              壁谷悠成 壁谷 悠成 かべたにゆうせい かべたに ゆうせい KABETANI
+              Yusei Yusei Kabetani ポートフォリオ
+            </p>
+          </div>
         </div>
       </div>
     </footer>
