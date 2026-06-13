@@ -28,7 +28,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-2.5">
               <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-600">
                 <span className="h-2 w-2 rounded-full bg-blue-400" />
-                AtCoder 水 / 青
+                AtCoder 水 / 黄
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-600">
                 <span className="h-2 w-2 rounded-full bg-amber-400" />
