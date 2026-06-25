@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "壁谷悠成" }],
   creator: "壁谷悠成",
+  verification: {
+    google: "kiHl5opK3b3FtQT7KL4OeEg3z6oQgI2SHIB8odJFbtM",
+  },
   alternates: {
     canonical: siteUrl,
   },
