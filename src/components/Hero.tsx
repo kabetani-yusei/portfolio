@@ -1,6 +1,5 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
-import { SiGithub, SiKaggle, SiX } from "react-icons/si";
 import { profile } from "@/data/profile";
 import { FadeIn } from "./FadeIn";
 
@@ -22,12 +21,6 @@ function Dot({ color }: { color: string }) {
     />
   );
 }
-
-const heroLinks = [
-  { name: "GitHub", icon: SiGithub },
-  { name: "X", icon: SiX },
-  { name: "Kaggle", icon: SiKaggle },
-];
 
 export function Hero() {
   return (
@@ -73,31 +66,6 @@ export function Hero() {
               <RatingBadge dot={<Dot color="#D4A017" />}>
                 SIGNATE Grandmaster
               </RatingBadge>
-            </div>
-
-            <div className="flex items-center gap-2">
-              {heroLinks.map(({ name, icon: Icon }) => {
-                const account = profile.accounts.find((a) => a.name === name);
-                if (!account) return null;
-                return (
-                  <a
-                    key={name}
-                    href={account.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={name}
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-500 transition hover:-translate-y-0.5 hover:border-slate-300 hover:text-slate-900 hover:shadow-sm"
-                  >
-                    <Icon size={18} />
-                  </a>
-                );
-              })}
-              <a
-                href="#contact"
-                className="ml-1 inline-flex h-10 items-center rounded-full bg-slate-900 px-5 text-sm font-medium text-white transition hover:bg-slate-700"
-              >
-                Contact
-              </a>
             </div>
           </div>
         </FadeIn>
