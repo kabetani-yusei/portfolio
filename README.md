@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio — 壁谷 悠成 / KABETANI Yusei
+
+ポートフォリオサイトです
+
+🔗 **https://portfolio-kabetani-yusei.vercel.app/**
+
+## Tech Stack
+
+| 領域 | 使用技術 |
+| --- | --- |
+| フレームワーク | Next.js 16（App Router） / React 19 |
+| 言語 | TypeScript |
+| スタイリング | Tailwind CSS v4 |
+| アニメーション | Framer Motion |
+| アイコン | lucide-react / react-icons |
+| ホスティング | Vercel |
+| パッケージ管理 | pnpm |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+その他のコマンド:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm build    # 本番ビルド
+pnpm start    # ビルド成果物を起動
+pnpm lint     # ESLint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   ├── layout.tsx      # メタデータ・OGP・JSON-LD（Person）
+│   ├── page.tsx        # セクションの組み立て
+│   ├── sitemap.ts      # sitemap.xml
+│   └── robots.ts       # robots.txt
+├── components/         # Hero / About / Skills / Achievements / Experience / Timeline / Accounts / Footer
+└── data/
+    └── profile.ts      # サイトに表示する全データ（唯一の情報源）
+content/
+└── portfolio.md        # プロフィール原稿（profile.ts のもと）
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 内容の更新方法
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+表示されるテキストはすべて `src/data/profile.ts` に集約されています。
+実績やアカウントを足すときは、まず `content/portfolio.md` に原稿を追記し、
+同じ内容を `src/data/profile.ts` の各配列に反映してください。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| 更新したいもの | 編集場所 |
+| --- | --- |
+| プロフィール・所属・資格 | `profile` |
+| 各種アカウント（JSON-LD の `sameAs` にも自動反映） | `profile.accounts` |
+| 受賞・実績 | `achievements` |
+| 活動・経験 | `experiences` |
+| 学歴・職歴 | `timeline` |
 
-## Deploy on Vercel
+`achievements` / `experiences` の `tags` は、そのままセクション内の絞り込みボタンになります。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## SEO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `layout.tsx` に title / description / keywords / OpenGraph / Twitter Card を定義
+- `schema.org` の `Person` を JSON-LD で出力（`sameAs` は `profile.accounts` から生成）
+- `sitemap.xml` と `robots.txt` を App Router で生成
+
+## Deploy
+
+`main` への push で Vercel が自動デプロイします。
