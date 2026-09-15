@@ -34,6 +34,10 @@ export function Hero() {
                 AtCoder 水 / 黄
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-600">
+                <span className="h-2 w-2 rounded-full bg-sky-500" />
+                Kaggle Expert
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-600">
                 <span className="h-2 w-2 rounded-full bg-amber-400" />
                 SIGNATE Grandmaster
               </span>

@@ -13,6 +13,7 @@
 - X: https://x.com/melo_atc
 - GitHub: https://github.com/kabetani-yusei
 - AtCoder: https://atcoder.jp/users/melo25
+- Kaggle: https://www.kaggle.com/wally0593
 - atmaCup: https://www.guruguru.science/wally0593
 - SIGNATE: https://user.competition.signate.jp/ja/user/?user=5a67c126a1d648f88ce4b580c4abf31a
 - Qiita: https://qiita.com/melo_atc
@@ -36,21 +37,25 @@
 - 普通自動車第一種運転免許(AT限定) 2023年12月
 
 ## 受賞・実績
-- AtCoder（水 / 黄）
+- AtCoder Algorithm 水色 / Heuristic 黄色
+- Kaggle Expert
 - SIGNATE Grandmaster
 - 令和6年度学業成績優秀者
 - 公益社団法人日本オペレーションズ・リサーチ学会主催　第1回ORコンペティション優秀賞
 - JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞
 - JPHACKS2024 AwardDay進出、三菱重工スポンサー賞、NTTドコモスポンサー賞
 - 技育博2025 Vol.5 株式会社CARTA HOLDINGS賞 ウイングアーク１ｓｔ株式会社賞
-- atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位
-- atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位
-- #21 atmaCup in collaboration with Elith 学生8位 / 全体41位
-- SIGNATE MUFG DATA Science Basic Camp 1位
-- SIGNATE × TECH OCEAN Student Cup 2025 3位
-- 第4回空戦AIチャレンジ オープン部門10位 / ユース部門5位
-- リヴァンプ×Nishika LLMコンペティション】大手グローバル小売メーカーの商品PR文生成 5位
-- AtCoder Heuristic Contest 055 学生26位 / 総合82位
+- atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位 / 666チーム
+- atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位 / 423チーム
+- #21 atmaCup in collaboration with Elith 学生8位 / 全体41位 / 386チーム
+- SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人
+- SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム
+- 第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム
+- 【リヴァンプ×Nishika LLMコンペティション】大手グローバル小売メーカーの商品PR文生成 5位
+- Kaggle The Pokémon Company - PTCG AI Battle Challenge Simulation 155位 / 6,807チーム（Top 2.3%・銀メダル）
+- Kaggle AI Agent Security - Multi-Step Tool Attacks 215位 / 4,251チーム（Top 5.1%・銅メダル）
+- RECRUIT 日本橋ハーフマラソン 2025秋（AHC055）学生26位 / 全体82位 / 1,406人
+- RECRUIT 日本橋ハーフマラソン 2026夏（AHC069）学生24位 / 全体77位 / 2,739人
 
 
 ## 活動・経験

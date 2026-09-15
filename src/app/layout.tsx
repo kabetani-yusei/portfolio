@@ -17,7 +17,7 @@ const body = Noto_Sans_JP({
 const siteUrl = "https://portfolio-kabetani-yusei.vercel.app";
 const siteName = "壁谷悠成（かべたにゆうせい）ポートフォリオ";
 const description =
-  "壁谷悠成（かべたに ゆうせい / Yusei Kabetani）のポートフォリオサイト。名古屋大学大学院で組合せ最適化を研究。競技プログラミング（AtCoder 黄）、機械学習コンペ（SIGNATE Grandmaster）、ハッカソンでの実績を紹介します。";
+  "壁谷悠成（かべたに ゆうせい / Yusei Kabetani）のポートフォリオサイト。名古屋大学大学院で組合せ最適化を研究。競技プログラミング（AtCoder Heuristic 黄）、機械学習コンペ（Kaggle Expert / SIGNATE Grandmaster）、ハッカソンでの実績を紹介します。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
