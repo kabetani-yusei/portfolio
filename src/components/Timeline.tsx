@@ -21,7 +21,7 @@ export function Timeline() {
 
             return (
               <FadeIn key={`${item.period}-${i}`} delay={0.08 * i}>
-                <div className="flex h-16">
+                <div className="flex min-h-16">
                   {/* Graph column */}
                   <div className="relative mr-4 flex w-16 shrink-0">
                     {/* Main branch vertical line */}
@@ -68,11 +68,11 @@ export function Timeline() {
                   </div>
 
                   {/* Content */}
-                  <div className="flex grow items-center gap-4">
+                  <div className="flex grow flex-col justify-center gap-0.5 py-3 sm:flex-row sm:items-center sm:gap-4 sm:py-0">
                     <span className="w-24 shrink-0 text-xs font-bold text-slate-500">
                       {item.period}
                     </span>
-                    <span className="text-sm text-slate-700">
+                    <span className="text-sm leading-relaxed text-slate-700">
                       {item.detail}
                     </span>
                   </div>
