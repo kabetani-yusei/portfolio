@@ -51,7 +51,7 @@
 - SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人
 - SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム
 - 第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム
-- 【リヴァンプ×Nishika LLMコンペティション】大手グローバル小売メーカーの商品PR文生成 5位
+- 【リヴァンプ×Nishika LLMコンペティション】大手グローバル小売メーカーの商品PR文生成 5位 / 100チーム
 - Kaggle The Pokémon Company - PTCG AI Battle Challenge Simulation 155位 / 6,807チーム（Top 2.3%・銀メダル）
 - Kaggle AI Agent Security - Multi-Step Tool Attacks 215位 / 4,251チーム（Top 5.1%・銅メダル）
 - RECRUIT 日本橋ハーフマラソン 2025秋（AHC055）学生26位 / 全体82位 / 1,406人
