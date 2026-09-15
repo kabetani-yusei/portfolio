@@ -109,7 +109,7 @@ export const achievements: Achievement[] = [
   },
   {
     title:
-      "リヴァンプ×Nishika LLMコンペティション 大手グローバル小売メーカーの商品PR文生成 5位",
+      "リヴァンプ×Nishika LLMコンペティション 大手グローバル小売メーカーの商品PR文生成 5位 / 100チーム",
     tags: ["Data Science"],
   },
   {
