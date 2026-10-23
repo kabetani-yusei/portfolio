@@ -34,7 +34,7 @@ export const profile = {
   accounts: [
     { name: "GitHub", url: "https://github.com/kabetani-yusei", handle: "kabetani-yusei" },
     { name: "X", url: "https://x.com/melo_atc", handle: "@melo_atc" },
-    { name: "AtCoder", url: "https://atcoder.jp/users/melo25", handle: "melo25" },
+    { name: "AtCoder", url: "https://atcoder.jp/users/melo25?contestType=heuristic", handle: "melo25" },
     { name: "Kaggle", url: "https://www.kaggle.com/wally0593", handle: "wally0593" },
     { name: "atmaCup", url: "https://www.guruguru.science/wally0593", handle: "wally0593" },
     {
@@ -62,7 +62,7 @@ export const profile = {
 };
 
 export const achievements: Achievement[] = [
-  { title: "AtCoder Algorithm 水色 / Heuristic 黄色", tags: ["Programming"] },
+  { title: "AtCoder Algorithm 水色 / Heuristic 橙色", tags: ["Programming"] },
   { title: "Kaggle Expert", tags: ["Data Science"] },
   { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
   { title: "令和6年度学業成績優秀者", tags: ["Academic"] },
@@ -84,32 +84,22 @@ export const achievements: Achievement[] = [
     tags: ["Hackathon"],
   },
   {
-    title: "atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位 / 666チーム",
-    tags: ["Data Science"],
-  },
-  {
-    title: "atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位 / 423チーム",
-    tags: ["Data Science"],
-  },
-  {
-    title: "#21 atmaCup in collaboration with Elith 学生8位 / 全体41位 / 386チーム",
-    tags: ["Data Science"],
-  },
-  {
-    title: "SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人",
-    tags: ["Data Science"],
-  },
-  {
-    title: "SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム",
-    tags: ["Data Science"],
-  },
-  {
-    title: "第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム",
-    tags: ["Data Science"],
+    title:
+      "ALGO ARTIS プログラミングコンテスト2026 長月（AHC072）全体3位 / 2,597人",
+    tags: ["Programming"],
   },
   {
     title:
-      "リヴァンプ×Nishika LLMコンペティション 大手グローバル小売メーカーの商品PR文生成 5位 / 100チーム",
+      "RECRUIT 日本橋ハーフマラソン 2026夏（AHC069）学生24位 / 全体77位 / 2,739人",
+    tags: ["Programming"],
+  },
+  {
+    title:
+      "RECRUIT 日本橋ハーフマラソン 2025秋（AHC055）学生26位 / 全体82位 / 1,406人",
+    tags: ["Programming"],
+  },
+  {
+    title: "Kaggle Kaggriculture 74位 / 10,148チーム（Top 0.7%・銀メダル）",
     tags: ["Data Science"],
   },
   {
@@ -124,14 +114,43 @@ export const achievements: Achievement[] = [
   },
   {
     title:
-      "RECRUIT 日本橋ハーフマラソン 2025秋（AHC055）学生26位 / 全体82位 / 1,406人",
-    tags: ["Programming"],
+      "SIGNATE NEDO Challenge Baggage-Loading Robot コンテスト2: 積付アルゴリズム スクリーニング 1位 / 591人",
+    tags: ["Data Science"],
+  },
+  {
+    title: "SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人",
+    tags: ["Data Science"],
+  },
+  {
+    title: "SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム",
+    tags: ["Data Science"],
   },
   {
     title:
-      "RECRUIT 日本橋ハーフマラソン 2026夏（AHC069）学生24位 / 全体77位 / 2,739人",
-    tags: ["Programming"],
+      "SIGNATE 第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム",
+    tags: ["Data Science"],
   },
+  {
+    title:
+      "atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位 / 423チーム",
+    tags: ["Data Science"],
+  },
+  {
+    title:
+      "#21 atmaCup in collaboration with Elith 学生8位 / 全体41位 / 386チーム",
+    tags: ["Data Science"],
+  },
+  {
+    title:
+      "atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位 / 666チーム",
+    tags: ["Data Science"],
+  },
+  {
+    title:
+      "リヴァンプ×Nishika LLMコンペティション 大手グローバル小売メーカーの商品PR文生成 5位 / 100チーム",
+    tags: ["Data Science"],
+  },
+  { title: "自動運転AIチャレンジ2026 学生5位", tags: ["Programming"] },
 ];
 
 export const experiences: Achievement[] = [
@@ -168,6 +187,7 @@ export const experiences: Achievement[] = [
     tags: ["Data Science"],
   },
   { title: "技育CAMP 2025 vol.7 努力賞", tags: ["Hackathon"] },
+  { title: "ICFPC2026 11位", tags: ["Programming"] },
   { title: "Fixstars高速化コンテスト2026 18位", tags: ["Programming"] },
   { title: "DECC2025 本戦22位", tags: ["Programming"] },
   { title: "ALGORI2024 戦略賞ノミネート", tags: ["Programming"] },
