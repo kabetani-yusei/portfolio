@@ -109,7 +109,7 @@ export const achievements: Achievement[] = [
   },
   {
     title:
-      "Kaggle AI Agent Security - Multi-Step Tool Attacks 215位 / 4,251チーム（Top 5.1%・銅メダル）",
+      "Kaggle Biohub Cell Tracking During Development 134位 / 3,947チーム（Top 3.4%・銀メダル）",
     tags: ["Data Science"],
   },
   {

@@ -54,11 +54,11 @@ export function Hero() {
                 dot={
                   <span className="flex items-center gap-1">
                     <Dot color="#00C0C0" />
-                    <Dot color="#C0C000" />
+                    <Dot color="#FF8000" />
                   </span>
                 }
               >
-                AtCoder 水 / 黄
+                AtCoder 水 / 橙
               </RatingBadge>
               <RatingBadge dot={<Dot color="#96508E" />}>
                 Kaggle Expert
