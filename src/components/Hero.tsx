@@ -63,9 +63,6 @@ export function Hero() {
               <RatingBadge dot={<Dot color="#96508E" />}>
                 Kaggle Expert
               </RatingBadge>
-              <RatingBadge dot={<Dot color="#D4A017" />}>
-                SIGNATE Grandmaster
-              </RatingBadge>
             </div>
           </div>
         </FadeIn>
