@@ -19,9 +19,6 @@ export function About() {
               <span className="text-sm font-bold text-slate-900">
                 {profile.research}
               </span>
-              <span className="ml-2 text-sm text-slate-500">
-                — {profile.lab}
-              </span>
               <p className="mt-1 text-sm leading-relaxed text-slate-500">
                 実社会の問題に対して、数理最適化によるアプローチをする研究をしています。
               </p>

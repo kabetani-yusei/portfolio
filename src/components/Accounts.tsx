@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import type { IconType } from "react-icons";
-import { SiGithub, SiKaggle, SiQiita, SiX } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 import { profile } from "@/data/profile";
 import { FadeIn } from "./FadeIn";
 import { SectionHeading } from "./SectionHeading";
@@ -9,9 +9,6 @@ import { SectionHeading } from "./SectionHeading";
 /** Simple Icons に収録されているサービスはベクターアイコンを使う */
 const accountIcons: Record<string, IconType> = {
   GitHub: SiGithub,
-  X: SiX,
-  Kaggle: SiKaggle,
-  Qiita: SiQiita,
 };
 
 /**
@@ -19,10 +16,6 @@ const accountIcons: Record<string, IconType> = {
  * fullBleed: ロゴが背景色込みの正方形で、タイル全面に敷いた方が自然なもの
  */
 const accountLogos: Record<string, { src: string; fullBleed?: boolean }> = {
-  AtCoder: { src: "/icons/atcoder.png" },
-  atmaCup: { src: "/icons/atmacup.png", fullBleed: true },
-  SIGNATE: { src: "/icons/signate.png" },
-  "jackブログ": { src: "/icons/jack.png", fullBleed: true },
 };
 
 export function Accounts() {

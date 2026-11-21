@@ -23,7 +23,6 @@ export const profile = {
   givenNameKana: "ゆうせい",
   englishName: "KABETANI Yusei",
   role: "名古屋大学大学院 情報学研究科 数理情報学専攻 修士1年",
-  lab: "柳浦研究室",
   research: "組合せ最適化",
   intro:
     "組合せ最適化を研究しています。競技プログラミング、機械学習コンペ、ハッカソンに参加しています。",
@@ -33,20 +32,6 @@ export const profile = {
   ],
   accounts: [
     { name: "GitHub", url: "https://github.com/kabetani-yusei", handle: "kabetani-yusei" },
-    { name: "X", url: "https://x.com/melo_atc", handle: "@melo_atc" },
-    { name: "AtCoder", url: "https://atcoder.jp/users/melo25?contestType=heuristic", handle: "melo25" },
-    { name: "Kaggle", url: "https://www.kaggle.com/wally0593", handle: "wally0593" },
-    { name: "atmaCup", url: "https://www.guruguru.science/wally0593", handle: "wally0593" },
-    {
-      name: "SIGNATE",
-      url: "https://user.competition.signate.jp/ja/user/?user=5a67c126a1d648f88ce4b580c4abf31a",
-      handle: "wally0593",
-    },
-    { name: "Qiita", url: "https://qiita.com/melo_atc", handle: "@melo_atc" },
-    {
-      name: "jackブログ",
-      url: "https://www.jackapp.jp/blog/writer/%E3%82%81%E3%82%8D",
-    },
   ] satisfies Account[],
   email: "yuusei0565(at)gmail.com",
   skills: ["Python", "FastAPI", "TypeScript", "React", "C++", "Ruby"],
@@ -64,7 +49,6 @@ export const profile = {
 export const achievements: Achievement[] = [
   { title: "AtCoder Algorithm 水色 / Heuristic 橙色", tags: ["Programming"] },
   { title: "Kaggle Expert", tags: ["Data Science"] },
-  { title: "SIGNATE Grandmaster", tags: ["Data Science"] },
   { title: "令和6年度学業成績優秀者", tags: ["Academic"] },
   {
     title: "公益社団法人日本オペレーションズ・リサーチ学会主催 第1回ORコンペティション優秀賞",
@@ -110,24 +94,6 @@ export const achievements: Achievement[] = [
   {
     title:
       "Kaggle Biohub Cell Tracking During Development 134位 / 3,947チーム（Top 3.4%・銀メダル）",
-    tags: ["Data Science"],
-  },
-  {
-    title:
-      "SIGNATE NEDO Challenge Baggage-Loading Robot コンテスト2: 積付アルゴリズム スクリーニング 1位 / 591人",
-    tags: ["Data Science"],
-  },
-  {
-    title: "SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人",
-    tags: ["Data Science"],
-  },
-  {
-    title: "SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム",
-    tags: ["Data Science"],
-  },
-  {
-    title:
-      "SIGNATE 第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム",
     tags: ["Data Science"],
   },
   {

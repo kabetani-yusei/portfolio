@@ -6,18 +6,10 @@
 - アプリ開発団体 jack
 - 競技プログラミングサークル NUCODER
 ## 研究分野
-柳浦研究室
 組合せ最適化
 
 ## 各種アカウント
-- X: https://x.com/melo_atc
 - GitHub: https://github.com/kabetani-yusei
-- AtCoder: https://atcoder.jp/users/melo25?contestType=heuristic
-- Kaggle: https://www.kaggle.com/wally0593
-- atmaCup: https://www.guruguru.science/wally0593
-- SIGNATE: https://user.competition.signate.jp/ja/user/?user=5a67c126a1d648f88ce4b580c4abf31a
-- Qiita: https://qiita.com/melo_atc
-- jackブログ: https://www.jackapp.jp/blog/writer/%E3%82%81%E3%82%8D
 
 ## skills
 - Python
@@ -39,7 +31,6 @@
 ## 受賞・実績
 - AtCoder Algorithm 水色 / Heuristic 橙色
 - Kaggle Expert
-- SIGNATE Grandmaster
 - 令和6年度学業成績優秀者
 - 公益社団法人日本オペレーションズ・リサーチ学会主催　第1回ORコンペティション優秀賞
 - JPHACKS2025 AwardDay進出、審査員特別賞、PASONAスポンサー賞、サイバーエージェント賞、株式会社ハウテレビジョン賞
@@ -51,10 +42,6 @@
 - Kaggle Kaggriculture 74位 / 10,148チーム（Top 0.7%・銀メダル）
 - Kaggle The Pokémon Company - PTCG AI Battle Challenge Simulation 155位 / 6,807チーム（Top 2.3%・銀メダル）
 - Kaggle Biohub Cell Tracking During Development 134位 / 3,947チーム（Top 3.4%・銀メダル）
-- SIGNATE NEDO Challenge Baggage-Loading Robot コンテスト2: 積付アルゴリズム スクリーニング 1位 / 591人
-- SIGNATE MUFG DATA Science Basic Camp 2024 1位 / 266人
-- SIGNATE × TECH OCEAN Student Cup 2025 3位 / 245チーム
-- SIGNATE 第4回空戦AIチャレンジ オープン部門10位 / 137チーム・ユース部門5位 / 61チーム
 - atmaCup #20 in collaboration with Udemy 初心者枠2位 / 全体10位 / 423チーム
 - #21 atmaCup in collaboration with Elith 学生8位 / 全体41位 / 386チーム
 - atmaCup #16 in collaboration with RECRUIT 学生10位 / 全体43位 / 666チーム
